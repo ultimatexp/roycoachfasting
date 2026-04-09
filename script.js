@@ -221,7 +221,8 @@
     'svc3-f2':          { en: 'Evidence-based nutrition strategies', th: 'กลยุทธ์โภชนาการอิงหลักฐาน' },
     'svc3-f3':          { en: 'Practical meal timing frameworks', th: 'กรอบเวลาอาหารที่ปฏิบัติได้จริง' },
     'svc3-f4':          { en: 'Companion to coaching & course programs', th: 'คู่มือเสริมสำหรับโปรแกรมโค้ชและคอร์ส' },
-    'svc3-link':        { en: 'Get the Book', th: 'สั่งซื้อหนังสือ' },
+    'svc3-ebook-cta':   { en: 'Purchase Ebook', th: 'สั่งซื้ออีบุ๊ก' },
+    'svc3-physical-cta':{ en: 'Buy Physical Book', th: 'สั่งซื้อหนังสือเล่ม' },
     // Testimonials
     'testi-label':      { en: 'Real Results', th: 'ผลลัพธ์จริง' },
     'testi-heading':    { en: 'Proven Methods, Real Transformations', th: 'วิธีที่พิสูจน์แล้ว การเปลี่ยนแปลงจริง' },
@@ -291,7 +292,8 @@
     'svc2-link':      '#service-courses .service-link',
     'svc3-title':     '#service-books h3',
     'svc3-desc':      '#service-books p',
-    'svc3-link':      '#service-books .service-link',
+    'svc3-ebook-cta':    '#books-ebook-cta',
+    'svc3-physical-cta': '#books-physical-cta',
     'testi-label':    '.testimonials .section-label',
     'testi-heading':  '#testimonials-heading',
     'testi-subtitle': '.testimonials .section-subtitle',
@@ -334,7 +336,7 @@
 
   // Elements that have child SVGs we should preserve
   var svgParentKeys = ['hero-badge', 'hero-cta', 'hero-explore', 'cta-btn',
-    'svc1-link', 'svc2-link', 'svc3-link'];
+    'svc1-link', 'svc2-link', 'svc3-ebook-cta', 'svc3-physical-cta'];
 
   // Service feature items (special handling: list items with SVG + text)
   var featureMap = {

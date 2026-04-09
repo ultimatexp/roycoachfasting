@@ -821,6 +821,64 @@ body.lang-th .hero-stat .number {
   stroke-width: 2.5;
 }
 
+/* Books card CTAs (button-style) */
+.service-ctas {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.service-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.9rem 1.1rem;
+  border-radius: var(--radius-full);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  transition: transform var(--duration-fast) var(--ease-spring),
+              box-shadow var(--duration-fast) var(--ease-out),
+              background var(--duration-fast) var(--ease-out),
+              border-color var(--duration-fast) var(--ease-out),
+              color var(--duration-fast) var(--ease-out);
+}
+
+.service-cta svg {
+  width: 18px;
+  height: 18px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2.5;
+}
+
+.service-cta.primary {
+  background: var(--gradient-gold);
+  color: var(--bg-primary);
+  border: 1px solid transparent;
+}
+
+.service-cta.primary:hover {
+  color: var(--bg-primary);
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 10px 34px var(--accent-glow);
+}
+
+.service-cta.secondary {
+  background: rgba(212, 163, 83, 0.08);
+  color: var(--text-primary);
+  border: 1px solid var(--border-accent);
+}
+
+.service-cta.secondary:hover {
+  color: var(--text-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.25);
+  border-color: rgba(212, 163, 83, 0.45);
+}
+
 /* Service card image area */
 .service-card-img {
   width: 100%;
