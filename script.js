@@ -222,6 +222,7 @@
     'svc3-f3':          { en: 'Practical meal timing frameworks', th: 'กรอบเวลาอาหารที่ปฏิบัติได้จริง' },
     'svc3-f4':          { en: 'Companion to coaching & course programs', th: 'คู่มือเสริมสำหรับโปรแกรมโค้ชและคอร์ส' },
     'svc3-ebook-cta':   { en: 'Purchase Ebook', th: 'สั่งซื้ออีบุ๊ก' },
+    'svc3-howto-cta':   { en: 'How to buy E-book', th: 'วิธีซื้ออีบุ๊ก' },
     'svc3-physical-cta':{ en: 'Buy Physical Book', th: 'สั่งซื้อหนังสือเล่ม' },
     // Testimonials
     'testi-label':      { en: 'Real Results', th: 'ผลลัพธ์จริง' },
@@ -293,6 +294,7 @@
     'svc3-title':     '#service-books h3',
     'svc3-desc':      '#service-books p',
     'svc3-ebook-cta':    '#books-ebook-cta',
+    'svc3-howto-cta':    '#books-howto-cta',
     'svc3-physical-cta': '#books-physical-cta',
     'testi-label':    '.testimonials .section-label',
     'testi-heading':  '#testimonials-heading',
@@ -336,7 +338,7 @@
 
   // Elements that have child SVGs we should preserve
   var svgParentKeys = ['hero-badge', 'hero-cta', 'hero-explore', 'cta-btn',
-    'svc1-link', 'svc2-link', 'svc3-ebook-cta', 'svc3-physical-cta'];
+    'svc1-link', 'svc2-link', 'svc3-ebook-cta', 'svc3-howto-cta', 'svc3-physical-cta'];
 
   // Service feature items (special handling: list items with SVG + text)
   var featureMap = {
