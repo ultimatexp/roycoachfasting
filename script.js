@@ -215,6 +215,13 @@
     'svc2-f4':          { en: 'Metabolic health & body composition tips', th: 'เคล็ดลับสุขภาพเมตาบอลิซึมและองค์ประกอบร่างกาย' },
     'svc2-f5':          { en: 'New episodes added regularly', th: 'เพิ่มตอนใหม่สม่ำเสมอ' },
     'svc2-link':        { en: 'Listen Now', th: 'ฟังเลย' },
+    'svc4-label':       { en: 'Private Community', th: 'คอมมูนิตี้ส่วนตัว' },
+    'svc4-title':       { en: 'Closed Group', th: 'กลุ่มปิด' },
+    'svc4-desc':        { en: 'Join Roi\'s private fasting community for structured guidance, focused discussion, and ongoing support inside a dedicated member group.', th: 'เข้าร่วมคอมมูนิตี้กลุ่มปิดของรอย เพื่อรับแนวทางที่เป็นระบบ พูดคุยแบบเจาะลึก และรับการสนับสนุนต่อเนื่องในกลุ่มสำหรับสมาชิก' },
+    'svc4-f1':          { en: 'Private member-only community', th: 'คอมมูนิตี้ส่วนตัวสำหรับสมาชิกเท่านั้น' },
+    'svc4-f2':          { en: 'Fasting education and practical guidance', th: 'ความรู้เรื่องการอดอาหารและแนวทางที่นำไปใช้ได้จริง' },
+    'svc4-f3':          { en: 'Accountability and shared progress support', th: 'การติดตามและสนับสนุนความก้าวหน้าร่วมกัน' },
+    'svc4-link':        { en: 'Join Closed Group', th: 'เข้าร่วมกลุ่มปิด' },
     'svc3-title':       { en: 'Books & Guides', th: 'หนังสือและคู่มือ' },
     'svc3-desc':        { en: 'Roi\'s written resources distill years of coaching experience into practical, evidence-based guides. From macro and portion planning to understanding your body\'s metabolic signals — keep a reference that works when you need it.', th: 'ทรัพยากรที่รอยเขียนขึ้นรวบรวมประสบการณ์การโค้ชหลายปีเป็นคู่มือที่ปฏิบัติได้จริงและอิงหลักฐาน ตั้งแต่การวางแผนมาโครและสัดส่วนอาหาร ไปจนถึงการเข้าใจสัญญาณเมตาบอลิซึมของร่างกาย' },
     'svc3-f1':          { en: 'Macro & Portion Guide for every body type', th: 'คู่มือมาโครและสัดส่วนสำหรับทุกรูปร่าง' },
@@ -261,6 +268,7 @@
     'footer-svc-head':  { en: 'Services', th: 'บริการ' },
     'footer-s1':        { en: '1-on-1 Coaching', th: 'โค้ชส่วนตัว 1-on-1' },
     'footer-s2':        { en: 'Online Courses', th: 'คอร์สออนไลน์' },
+    'footer-s4':        { en: 'Closed Group', th: 'กลุ่มปิด' },
     'footer-s3':        { en: 'Books & Guides', th: 'หนังสือและคู่มือ' }
   };
 
@@ -291,6 +299,10 @@
     'svc2-title':     '#service-courses h3',
     'svc2-desc':      '#service-courses p',
     'svc2-link':      '#service-courses .service-link',
+    'svc4-label':     '#closed-group .section-label',
+    'svc4-title':     '#closed-group-heading',
+    'svc4-desc':      '#closed-group p',
+    'svc4-link':      '#closed-group-cta',
     'svc3-title':     '#service-books h3',
     'svc3-desc':      '#service-books p',
     'svc3-ebook-cta':    '#books-ebook-cta',
@@ -330,7 +342,8 @@
     'footer-svc-head':'.footer-column:nth-child(3) h4',
     'footer-s1':      '.footer-column:nth-child(3) li:nth-child(1) a',
     'footer-s2':      '.footer-column:nth-child(3) li:nth-child(2) a',
-    'footer-s3':      '.footer-column:nth-child(3) li:nth-child(3) a'
+    'footer-s4':      '.footer-column:nth-child(3) li:nth-child(3) a',
+    'footer-s3':      '.footer-column:nth-child(3) li:nth-child(4) a'
   };
 
   // Elements with innerHTML (contain tags like <span>, <br>)
@@ -338,12 +351,13 @@
 
   // Elements that have child SVGs we should preserve
   var svgParentKeys = ['hero-badge', 'hero-cta', 'hero-explore', 'cta-btn',
-    'svc1-link', 'svc2-link', 'svc3-ebook-cta', 'svc3-howto-cta', 'svc3-physical-cta'];
+    'svc1-link', 'svc2-link', 'svc4-link', 'svc3-ebook-cta', 'svc3-howto-cta', 'svc3-physical-cta'];
 
   // Service feature items (special handling: list items with SVG + text)
   var featureMap = {
     '#service-coaching .service-features li': ['svc1-f1','svc1-f2','svc1-f3','svc1-f4','svc1-f5'],
     '#service-courses .service-features li':  ['svc2-f1','svc2-f2','svc2-f3','svc2-f4','svc2-f5'],
+    '#closed-group .closed-group-features li': ['svc4-f1','svc4-f2','svc4-f3'],
     '#service-books .service-features li':    ['svc3-f1','svc3-f2','svc3-f3','svc3-f4']
   };
 

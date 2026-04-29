@@ -306,6 +306,7 @@ body.lang-th {
 
 body.lang-th .section-title,
 body.lang-th .hero h1,
+body.lang-th .closed-group-content h2,
 body.lang-th .about-text h2,
 body.lang-th .service-card h3,
 body.lang-th .nav-brand,
@@ -900,6 +901,91 @@ body.lang-th .hero-stat .number {
 }
 
 /* ============================================
+   CLOSED GROUP HERO
+   ============================================ */
+.closed-group-hero {
+  position: relative;
+  min-height: 72vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: var(--bg-primary);
+}
+
+.closed-group-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.closed-group-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: saturate(0.9) contrast(1.05);
+}
+
+.closed-group-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(90deg, rgba(10, 10, 10, 0.92) 0%, rgba(10, 10, 10, 0.72) 42%, rgba(10, 10, 10, 0.34) 100%),
+    linear-gradient(180deg, rgba(10, 10, 10, 0.15) 0%, rgba(10, 10, 10, 0.82) 100%);
+}
+
+.closed-group-content {
+  position: relative;
+  z-index: 2;
+  max-width: 720px;
+  padding: var(--space-3xl) var(--space-md);
+}
+
+.closed-group-content h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--text-primary);
+  margin: var(--space-sm) 0 var(--space-md);
+}
+
+.closed-group-content p {
+  max-width: 640px;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.75;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-lg);
+}
+
+.closed-group-features {
+  display: grid;
+  gap: 0.75rem;
+  list-style: none;
+  max-width: 620px;
+  margin-bottom: var(--space-xl);
+}
+
+.closed-group-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  color: var(--text-primary);
+  font-size: 0.98rem;
+}
+
+.closed-group-features svg {
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  margin-top: 0.2rem;
+  stroke: var(--accent);
+  fill: none;
+  stroke-width: 2.5;
+}
+
+/* ============================================
    TESTIMONIALS SECTION
    ============================================ */
 .testimonials {
@@ -1237,6 +1323,23 @@ body.lang-th .hero-stat .number {
   .hero-actions {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .closed-group-hero {
+    min-height: 620px;
+  }
+
+  .closed-group-overlay {
+    background:
+      linear-gradient(180deg, rgba(10, 10, 10, 0.78) 0%, rgba(10, 10, 10, 0.9) 100%);
+  }
+
+  .closed-group-content {
+    padding: var(--space-2xl) var(--space-md);
+  }
+
+  .closed-group-content h2 {
+    font-size: clamp(2.25rem, 12vw, 3.5rem);
   }
 
   .credentials {
