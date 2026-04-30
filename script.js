@@ -182,7 +182,7 @@
     'stat-3':           { en: 'Years Experience', th: 'ปีประสบการณ์' },
     // About
     'about-label':      { en: 'About the Expert', th: 'เกี่ยวกับผู้เชี่ยวชาญ' },
-    'about-heading':    { en: 'Meet <span class="highlight">Roi Panupong Tonnaim</span> — Your Fasting Authority', th: 'พบกับ <span class="highlight">รอย ภาณุพงศ์ ต้นน้ำ</span> — ผู้เชี่ยวชาญด้านการอดอาหาร' },
+    'about-heading':    { en: 'Meet <span class="highlight">Roi Panupong Tonnaim</span> — Your Fasting Authority', th: 'พบกับ <span class="highlight">รอย ภาณุพงศ์ ต้นเนียม</span> — ผู้เชี่ยวชาญด้านการอดอาหาร' },
     'about-p1':         { en: 'With over a decade of experience in health optimization, Roi has helped hundreds of clients transform their lives through the strategic science of fasting. His approach blends cutting-edge research on autophagy and metabolic health with practical, sustainable protocols tailored to each individual\'s body type, lifestyle, and goals. Roi doesn\'t believe in quick fixes — he builds lasting habits that rewire your relationship with food, energy, and performance.', th: 'ด้วยประสบการณ์กว่าสิบปีในการปรับปรุงสุขภาพ รอยได้ช่วยลูกค้าหลายร้อยคนเปลี่ยนแปลงชีวิตผ่านศาสตร์เชิงกลยุทธ์ของการอดอาหาร แนวทางของเขาผสมผสานงานวิจัยล่าสุดเกี่ยวกับ Autophagy และสุขภาพเมตาบอลิซึม กับโปรโตคอลที่ปฏิบัติได้จริงและยั่งยืน ปรับให้เหมาะกับรูปร่าง ไลฟ์สไตล์ และเป้าหมายของแต่ละคน' },
     'about-p2':         { en: 'Backed by internationally recognized certifications and real-world results, Roi combines deep expertise in nutrition coaching, high-intensity training, and natural movement to create holistic programs that go far beyond simple calorie restriction.', th: 'ได้รับการรับรองจากสถาบันระดับนานาชาติและผลลัพธ์จริง รอยผสมผสานความเชี่ยวชาญด้านโภชนาการ การฝึกความเข้มข้นสูง และการเคลื่อนไหวธรรมชาติ เพื่อสร้างโปรแกรมแบบองค์รวมที่มากกว่าการลดแคลอรี' },
     'cred-1-title':     { en: 'Precision Nutrition Level 1', th: 'Precision Nutrition ระดับ 1' },
@@ -259,7 +259,7 @@
     'cta-desc':         { en: 'Whether you want to lose stubborn fat, build lean muscle, or understand the science of autophagy — Roi is ready to guide you. Send a message today and take the first step toward the healthiest version of yourself.', th: 'ไม่ว่าคุณจะต้องการลดไขมันดื้อ สร้างกล้ามเนื้อ หรือเข้าใจวิทยาศาสตร์ของ Autophagy — รอยพร้อมนำทางคุณ ส่งข้อความวันนี้และก้าวแรกสู่เวอร์ชันที่สุขภาพดีที่สุดของคุณ' },
     'cta-btn':          { en: 'Send a Message on Messenger', th: 'ส่งข้อความทาง Messenger' },
     // Footer
-    'footer-desc':      { en: 'Science-backed fasting coaching by Roi Panupong Tonnaim. Helping you unlock your body\'s hidden potential through personalized protocols, education, and evidence-based nutrition strategies.', th: 'การโค้ชอดอาหารอิงวิทยาศาสตร์โดยรอย ภาณุพงศ์ ต้นน้ำ ช่วยคุณปลดล็อกศักยภาพที่ซ่อนอยู่ของร่างกายผ่านโปรโตคอลส่วนบุคคล การศึกษา และกลยุทธ์โภชนาการอิงหลักฐาน' },
+    'footer-desc':      { en: 'Science-backed fasting coaching by Roi Panupong Tonnaim. Helping you unlock your body\'s hidden potential through personalized protocols, education, and evidence-based nutrition strategies.', th: 'การโค้ชอดอาหารอิงวิทยาศาสตร์โดยรอย ภาณุพงศ์ ต้นเนียม ช่วยคุณปลดล็อกศักยภาพที่ซ่อนอยู่ของร่างกายผ่านโปรโตคอลส่วนบุคคล การศึกษา และกลยุทธ์โภชนาการอิงหลักฐาน' },
     'footer-quick':     { en: 'Quick Links', th: 'ลิงก์ด่วน' },
     'footer-home':      { en: 'Home', th: 'หน้าแรก' },
     'footer-about-roi': { en: 'About Roi', th: 'เกี่ยวกับรอย' },
